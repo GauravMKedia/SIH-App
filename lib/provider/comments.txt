@@ -1,0 +1,317 @@
+-------------------- sign_up_widget----------------------------------------------------------------
+/*late final VideoPlayerController _controller;*/
+  /*@override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _controller = VideoPlayerController.asset('assets/A.mp4')
+      ..initialize().then((value) => setState(() {}));
+    _controller.play();
+    _controller.setLooping(true);
+    _controller.setVolume(0.0);
+  }*/
+  /*Container(child: Image.asset('assets/pexels-cottonbro-4629623.jpg'))*/
+            /*SizedBox(height: 40),
+            Row(children: <Widget>[
+              SizedBox(width: 25),
+              Image(
+                  image: ExactAssetImage("assets/icons8-sign-language-h-90.png"),
+                  width: 35),
+              Text("MOTION",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  )),
+            ]),*/
+    /*Container(
+                  child: _controller.value.isInitialized
+                      ? AspectRatio(
+                          aspectRatio: _controller.value.aspectRatio,
+                          child: VideoPlayer(_controller),
+                        )
+                      : Container(),
+                  width: 325,
+                  height: 390,
+                ),
+              ],
+            ),
+            SizedBox(height: 30),
+            Text(
+              'Sign in to express \n   through signs',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                  color: Color.fromARGB(255, 24, 23, 31)),
+            ),
+            */
+
+                /*
+            SizedBox(height: 25),
+            Text(
+              'For the words behind the silence',
+              style: TextStyle(color: Color.fromARGB(255, 24, 23, 31)),
+            ),
+            SizedBox(height: 50),
+            ElevatedButton.icon(
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 24, 23, 31),
+                  onPrimary: Colors.white,
+                  minimumSize: Size(300, 50),
+                  shape: StadiumBorder()),
+              onPressed: () {
+                final provider =
+                    Provider.of<GoogleSignInProvider>(context, listen: false);
+                provider.googleLogin();
+              },
+              icon: Image.asset("assets/icons8-google-48.png",
+                  width: 30, height: 30),
+              label: Text('Google Sign in',
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            )*/
+--------- Asl_lan--------------------
+/*FabCircularMenu(
+                ringColor: Color.fromARGB(0, 255, 193, 7),
+                ringDiameter: MediaQuery.of(context).size.width * 0.71,
+                ringWidth: 100,
+                fabOpenIcon: CircleAvatar(
+                    radius: 48, backgroundImage: NetworkImage(user.photoURL!)),
+                fabCloseIcon: CircleAvatar(
+                    radius: 48, backgroundImage: NetworkImage(user.photoURL!)),
+                fabSize: 50.0,
+                alignment: Alignment.topRight,
+                animationCurve: Curves.decelerate,
+                children: <Widget>[
+                  IconButton(
+                      iconSize: 40,
+                      icon: Image.asset("assets/profile.png",
+                          width: 60, height: 60),
+                      onPressed: () {
+                        print('Home');
+                      }),
+                  IconButton(
+                      iconSize: 40,
+                      icon: Image.asset(
+                        "assets/dark-mode.png",
+                      ),
+                      onPressed: () {
+                        print('Home');
+                      }),
+                  IconButton(
+                      iconSize: 40,
+                      icon: Image.asset(
+                        "assets/settings.png",
+                      ),
+                      onPressed: () {
+                        print('Favorite');
+                      })
+                ],
+              ),*/
+            ),
+          ),
+        ],
+      ),
+      /*Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: buildSpeedDial(),
+      ),*/
+    /*Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: buildSpeedDial(),
+      ),*/
+/*CircleAvatar(
+                      radius: 23,
+                      backgroundImage: NetworkImage(user.photoURL!),
+                    ),*/
+
+                    /*CircularMenu(
+                      alignment: Alignment.topRight,
+                      backgroundWidget: Center(
+                          child: Container(padding: EdgeInsets.all(35.0))),
+                      toggleButtonColor: Colors.pink,
+                      items: [
+                        CircularMenuItem(
+                            icon: Icons.home,
+                            color: Colors.green,
+                            onTap: () {
+                              setState(() {
+                                _color = Colors.green;
+                                _colorName = 'Green';
+                              });
+                            }),
+                        CircularMenuItem(
+                            icon: Icons.search,
+                            color: Colors.blue,
+                            onTap: () {
+                              setState(() {
+                                _color = Colors.blue;
+                                _colorName = 'Blue';
+                              });
+                            }),
+                        CircularMenuItem(
+                            icon: Icons.settings,
+                            color: Colors.orange,
+                            onTap: () {
+                              setState(() {
+                                _color = Colors.orange;
+                                _colorName = 'Orange';
+                              });
+                            }),
+                        CircularMenuItem(
+                            icon: Icons.chat,
+                            color: Colors.purple,
+                            onTap: () {
+                              setState(() {
+                                _color = Colors.purple;
+                                _colorName = 'Purple';
+                              });
+                            }),
+                        CircularMenuItem(
+                            icon: Icons.notifications,
+                            color: Colors.brown,
+                            onTap: () {
+                              setState(() {
+                                _color = Colors.brown;
+                                _colorName = 'Brown';
+                              });
+                            })
+                      ],
+                    ),*/
+/*child: ButtonTheme(
+            minWidth: 50.0,
+            child: FlatButton(
+              child: Text(
+                'Logout',
+                style: TextStyle(fontSize: 15.0),
+              ),
+              color: Color.fromARGB(255, 255, 68, 68),
+              textColor: Colors.white,
+              onPressed: () {
+                final provider =
+                    Provider.of<GoogleSignInProvider>(context, listen: false);
+                provider.Logout();
+              },
+            ),
+          ),*/
+------------------- looged_in_Widget-------------------
+//  change the model name in main file at line number 35,36
+//   loadmodel() async {
+//     Tflite.loadModel(
+//       model: "assets/detect.tflite",
+//       labels: "assets/labels.txt",
+//     );
+//   }
+// setState(
+                    //   () {
+                    //     cameraImage = image;
+                    //   },
+                    // ),
+/*prediction['label']
+                  .toString()
+                  .substring(0, 1)
+                  .toUpperCase() +*/
+/*Center(
+            child: Text(
+              "Logged In",
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+          SizedBox(
+            height: 70,
+          ),
+          CircleAvatar(
+            radius: 60,
+            backgroundImage: NetworkImage(user.photoURL!),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+            user.displayName!,
+            style: TextStyle(color: Colors.white),
+          ),
+          SizedBox(
+            height: 15,
+          ),
+          Text(
+            user.email!,
+            style: TextStyle(color: Colors.white),
+          )*/
+/*ButtonTheme(
+                  minWidth: 50.0,
+                  child: FlatButton(
+                    child: Text(
+                      'Logout',
+                      style: TextStyle(fontSize: 15.0),
+                    ),
+                    color: Color.fromARGB(255, 255, 68, 68),
+                    textColor: Colors.white,
+                    onPressed: () {
+                      final provider = Provider.of<GoogleSignInProvider>(
+                          context,
+                          listen: false);
+                      provider.Logout();
+                    },
+                  ),
+                ),*/
+/*IconButton(
+                              iconSize: 40,
+                              icon: Icon(Icons.arrow_back),
+                              onPressed: () {
+                                Navigator.pop(context);
+                                cameraController!.setFlashMode(FlashMode.off);
+                              }),*/
+/*IconButton(
+                            icon: Icon(
+                              flash ? Icons.flash_on : Icons.flash_off,
+                              color: Colors.white,
+                              size: 28,
+                            ),
+                            onPressed: () {
+                              setState(() {
+                                flash = !flash;
+                              });
+                              flash
+                                  ? cameraController!
+                                      .setFlashMode(FlashMode.torch)
+                                  : cameraController!
+                                      .setFlashMode(FlashMode.off);
+                            }),*/
+/*
+                                IconButton(
+                                    icon: Icon(
+                                      Icons.flip_camera_ios,
+                                      color: Colors.white,
+                                      size: 28,
+                                    ),
+                                    onPressed: () async {
+                                      setState(() {
+                                        if (cameraPos == 0) {
+                                          cameraPos = 1;
+                                        } else if (cameraPos == 1) {
+                                          cameraPos = 0;
+                                        }
+                                      });
+                                      initCamera();
+                                    }),*/
+*Row(children: <Widget>[
+            SizedBox(
+              width: 160,
+            ),
+            Text(answer, style: TextStyle(color: Colors.white)),
+            /*ButtonTheme(
+              minWidth: 50.0,
+              child: FlatButton(
+                child: Text(
+                  'Logout',
+                  style: TextStyle(fontSize: 15.0),
+                ),
+                color: Color.fromARGB(255, 255, 68, 68),
+                textColor: Colors.white,
+                onPressed: () {
+                  final provider =
+                      Provider.of<GoogleSignInProvider>(context, listen: false);
+                  provider.Logout();
+                },
+              ),
+            ),*/
+          ]),*/
